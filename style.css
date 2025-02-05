@@ -1,0 +1,82 @@
+body{
+    background-color: #282828;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid purple;
+}
+
+#mainIntruduction{
+    margin: auto;
+    width: 30%;
+    border: 1px solid green;
+    padding: 10px;
+}
+
+#mainIntruduction > h1{
+    font-family: "Libre Baskerville", serif;
+    font-size: 4vh;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#mainIntruduction > p{
+    font-family: "Jersey 10", serif;
+    font-size: 5vh;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#cards{
+    border: 1px solid purple;
+    display: flex;
+    flex-direction: row;
+}
+
+#cards > div{
+    padding: 6%;
+}
+
+.image1{
+    width: 110px;
+}
+
+.image2{
+    width: 110px;
+}
+
+.image3{
+    width: 110px;
+}
+
+.image4{
+    width: 110px;
+}
+
+.image5{
+    width: 110px;
+}
+
+
+
+.rightNav{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid green;
+    width: 30%;
+}
+
+.leftNav{
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px solid rgb(175, 192, 175);
+    width: 30%;
+
+}
+
+.navBarElement{
+    padding: 20%;
+}
+
