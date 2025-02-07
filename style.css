@@ -1,82 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+   
+}
+
 body{
-    background-color: #282828;
+    background-color: gray;
+}
+
+
+#background{
+
+}
+
+#home{
+    background-repeat: no-repeat;
+    height: 38vh;
+    overflow: hidden;
+    border: solid 1px black;
+}
+
+#home img{
+    display: block;
+    margin-top: -34vh ;
 }
 
 #nav{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    border: 1px solid purple;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(68, 22, 22);
+    opacity: 0.8;
+    align-content: center;
+    align-items: center;
+    border: solid 1px black;
+    
 }
 
-#mainIntruduction{
-    margin: auto;
-    width: 30%;
-    border: 1px solid green;
-    padding: 10px;
+.navbar{
+    margin-right: 5vh;
+    border: solid 1px black;
+    
+}
+.navbar a{
+    text-decoration: none;
 }
 
-#mainIntruduction > h1{
-    font-family: "Libre Baskerville", serif;
-    font-size: 4vh;
-    font-weight: 400;
-    font-style: normal;
+a {
+    color: #000000;
+    text-decoration: none;
 }
 
-#mainIntruduction > p{
-    font-family: "Jersey 10", serif;
-    font-size: 5vh;
-    font-weight: 400;
-    font-style: normal;
+a:hover {
+    color:#000000; 
+    text-decoration:none; 
+    cursor:pointer;  
 }
 
-#cards{
-    border: 1px solid purple;
+
+
+.logo{
+    margin-left: 5vh;
+}
+
+.logo img{
+    width: 6vh;
+}
+
+#about{
+    height: 90vh;
+    border: solid 1px black;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 }
 
-#cards > div{
-    padding: 6%;
-}
-
-.image1{
-    width: 110px;
-}
-
-.image2{
-    width: 110px;
-}
-
-.image3{
-    width: 110px;
-}
-
-.image4{
-    width: 110px;
-}
-
-.image5{
-    width: 110px;
+.left{
+    margin-top: 40vh;
+    margin-left: 30vh;
 }
 
 
-
-.rightNav{
-    display: flex;
-    flex-direction: row;
-    border: 1px solid green;
-    width: 30%;
+.left h1{
+    border: solid 1px black;
+    width: 30vh;
+    justify-content: flex-start;
+    font-size: 6vh;
 }
 
-.leftNav{
-    display: flex;
-    flex-direction: row-reverse;
-    border: 1px solid rgb(175, 192, 175);
-    width: 30%;
+.left > p{
+    border: solid 1px black;
+    width: 60vh;
+    font-size: 3vh;
+}
+
+
+.right{
+    margin-top: 20vh;
+    margin-right: 10vh;
+}
+
+
+.right img{
+    width: 60vh;
+    border-radius: 50%;
+}
+
+#bio{
+        height: 90vh;
+        border: solid 1px black;
+        align-content: center;
+        align-items: center;
+}
+
+.bioField{
+    border: solid 1px black;
+    height: 70vh;
+    width: 100vh;
+    margin-left: 33vh;
+    border-radius: 10vh;
+
+}
+.bioField > p{
+  padding-left: 10vh;
+  padding-top: 8vh;
+}
+
+.clickME{
+    background-color: red;
+    font-weight: bold;
+    color: yellow;
+    width: 10vh;
+    height: 4vh;
 
 }
 
-.navBarElement{
-    padding: 20%;
+.clickagain{
+    background-color:  yellow;
+    font-weight: bold;
+    color: red;
+    width: 10vh;
+    height: 4vh;
 }
 
+#container3D{
+    border: solid 1px black;
+    width: 20vh;
+    height: 30vh;
+}
+
+.project{
+        height: 90vh;
+        border: solid 1px black;
+        padding: 10vh;
+        position: relative;
+}
+
+
+.invis{
+    opacity: 0;
+}
+.vis{
+    opacity: 1;
+}
+
+#bush {
+
+  position: absolute;
+  background: red;
+}
+
+@keyframes{}

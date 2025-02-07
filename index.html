@@ -1,46 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>portfolio_3.0</title>
 </head>
 <body>
-    <div id="nav" class="navBar">
-        <div class="rightNav">
-            <a href="#" class="navBarElement">About</a>
-            <a href="#" class="navBarElement">Projects</a>
+  
+  
+  <nav id="nav">
+
+    <div class="logo">
+      <a href="https://www.youtube.com/watch?app=desktop&v=xvFZjo5PgG0"><img src="/images/nerv.png" alt=""></a>
+      
+    </div>
+
+    <div class="navbar">
+      
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#bio">Bio</a>
+      <a href="#project">Project</a>
+      <a href="#connections">Connections</a>
+        
+    </div>
+
+  </nav>
+
+  <header id="home">
+      <img src="./images/head.jpg" alt="">
+  </header>
+
+  <main>
+    
+
+      <section id="about">
+        <div class="left">
+          <h1>Hey <br> I'm Gytis</h1>
+          <p>
+             I am a websmith of boundless fervor, a weaver of digital wonders, whose fingers dance upon the keys like a poet’s quill! With unyielding passion and ceaseless ambition, I forge each line of code as though it were a verse divine, ever striving, ever ascending, toward the zenith of creation!
+          </p>
         </div>
-
-        <div class="leftNav">
-            <a href="#" class="navBarElement">hobbies</a>
-            <a href="#" class="navBarElement">Contact</a>
+        <div class="right">
+          <img src="./images/pfp.jpg" alt="">
         </div>
-    </div>
+      </section>
+      <section id="bio">
+        <div class="bioField">
+          <p>
+            name: <b>Gytis Stravinsaks</b> <br>
+            age: <b>18</b> <br>
+            School: <b>Kitm</b> <br>
+            knowledge: <b>Non</b> <br>
+            Like: <b>FACTORIO and ( ＾◡＾)っ✂╰⋃╯</b> <br>
+            Facts about me: <b>I create high-level, beautiful designs with an interactive front-end.</b> <br>
+            <button class="clickME">clickME</button>
+             <button id="startButton">Start 3D Animation</button>
+          </p>
+          <div id="container3D"></div>
+              
+        </div>
+      </section>
 
-    <div id="mainIntruduction" class="mainIntruduction">
-        <h1>GYTIS</h1>
-        <p>I AM WEB DEV</p>
-    </div>
-
-    <div id="cards">
-        <div class="cards-card"><img class="image1" src="./images/python.png" alt="python"> <p>python</p> </div>
-        <div class="cards-card"><img class="image2" src="./images/html.png" alt="html"> <p>HTML</p> </div>
-        <div class="cards-card"><img class="image3" src="./images/css.png" alt="css"> <p>CSS</p> </div>
-        <div class="cards-card"><img class="image4" src="./images/js.png" alt="javascript"> <p>JavaScript</p> </div>
-        <div class="cards-card"><img class="image5" src=".//images/sql.png" alt="sql"> <p>SQL</p> </div>
-    </div>
 
 
-    <script src="script.js"></script>
-</body>
+
+      <sectiom id="projects">
+        <div class="project">
+          <button class="funnybutton">MY PROJECTS</button>
+
+          <img id="bush" class="invis" src="./images/bush.jpg" alt="">
+        </div>
+      </sectiom>
+      <section id="fun">
+        <!-- if your reading this its 3 am and its my 3rd attempt at this shit i think this it the first time i had to design something so its decent i'd say but it was fun -->
+      </section>
+  </main>
+  <footer id="connections">
+        the end somehow i spent more that 5 hours in ALL my attempts
+  </footer>
+
+
+
+
+
+
+
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+        }
+      }
+    </script>
+
+    <script type="module" src="main.js"></script>
+    <script type="module" src="3Dimages.js" defer></script>
+
+</body> 
 </html>
