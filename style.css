@@ -19,6 +19,7 @@ body{
     height: 38vh;
     overflow: hidden;
     border: solid 1px black;
+    width: 100%;
 }
 
 #home img{
@@ -32,7 +33,7 @@ body{
     justify-content: space-between;
     top: 0;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     background-color: rgb(68, 22, 22);
     opacity: 0.8;
     align-content: center;
@@ -42,7 +43,7 @@ body{
 }
 
 .navbar{
-    margin-right: 5vh;
+    margin-right: 3vw;
     border: solid 1px black;
     
 }
@@ -64,53 +65,53 @@ a:hover {
 
 
 .logo{
-    margin-left: 5vh;
+    margin-left: 3vw;
 }
 
 .logo img{
-    width: 6vh;
+    width: 5vw;
 }
 
 #about{
-    height: 90vh;
+    height: 60vw;
     border: solid 1px black;
     display: flex;
     justify-content: space-between;
 }
 
 .left{
-    margin-top: 40vh;
-    margin-left: 30vh;
+    margin-top: 24vw;
+    margin-left: 10vw;
 }
 
 
 .left h1{
     border: solid 1px black;
-    width: 30vh;
+    width: 20vw;
     justify-content: flex-start;
-    font-size: 6vh;
+    font-size: 4vw;
 }
 
 .left > p{
     border: solid 1px black;
-    width: 60vh;
-    font-size: 3vh;
+    width: 44vw;
+    font-size: 2vw;
 }
 
 
 .right{
-    margin-top: 20vh;
-    margin-right: 10vh;
+    margin-top: 12vw;
+    margin-right: 10vw;
 }
 
 
 .right img{
-    width: 60vh;
+    width: 37vw;
     border-radius: 50%;
 }
 
 #bio{
-        height: 90vh;
+        height: 60vw;
         border: solid 1px black;
         align-content: center;
         align-items: center;
@@ -118,23 +119,23 @@ a:hover {
 
 .bioField{
     border: solid 1px black;
-    height: 70vh;
-    width: 100vh;
-    margin-left: 33vh;
-    border-radius: 10vh;
+    height: 50vw;
+    width: 60vw;
+    margin-left: 21vw;
+    border-radius: 5vw;
 
 }
 .bioField > p{
-  padding-left: 10vh;
-  padding-top: 8vh;
+  padding-left: 6vw;
+  padding-top: 5vw;
 }
 
 .clickME{
     background-color: red;
     font-weight: bold;
     color: yellow;
-    width: 10vh;
-    height: 4vh;
+    width: 7vw;
+    height: 2vw;
 
 }
 
@@ -142,20 +143,20 @@ a:hover {
     background-color:  yellow;
     font-weight: bold;
     color: red;
-    width: 10vh;
-    height: 4vh;
+     width: 7vw;
+    height: 2vw;
 }
 
 #container3D{
     border: solid 1px black;
-    width: 20vh;
-    height: 30vh;
+    width: 20vw;
+    height: 30vw;
 }
 
 .project{
-        height: 90vh;
+        height: 30vw;
         border: solid 1px black;
-        padding: 10vh;
+        padding: 5vw;
         position: relative;
 }
 
@@ -172,5 +173,3 @@ a:hover {
   position: absolute;
   background: red;
 }
-
-@keyframes{}
